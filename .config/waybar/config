@@ -33,6 +33,9 @@
 		"cpu",
 		"custom/left-arrow-light",
 		"custom/left-arrow-dark",
+    "custom/batusage",
+		"custom/left-arrow-light",
+		"custom/left-arrow-dark",
 		"battery",
 		"custom/left-arrow-light",
 		"custom/left-arrow-dark",
@@ -69,7 +72,8 @@
 		"tooltip": false
 	},
 	"clock#2": {
-		"format": "{:%H:%M}",
+    "interval": 1,
+		"format": "{:%H:%M:%S}",
 		"tooltip": false
 	},
 	"clock#3": {
@@ -125,7 +129,12 @@
 	},
   "network": {
       "interval" : 1,
-      "format-wifi": "  {signalStrength}% ",
-      "tooltip-format-wifi":" {ipaddr} on {essid} | {bandwidthUpBytes} {bandwidthDownBytes}"
-  }
+      "format-wifi": " {signalStrength}%",
+      "tooltip-format-wifi":"{ipaddr} on {essid} | {bandwidthUpBytes} {bandwidthDownBytes}"
+  },
+  "custom/batusage": {
+      "exec": "~/.config/waybar/script/usage.sh",
+      "format": "{}W",
+      "interval": 1
+    }
 }

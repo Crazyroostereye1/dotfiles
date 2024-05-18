@@ -52,5 +52,6 @@ export EDITOR="nvim"
 
 alias ls="ls --color"
 alias ll="ls -la --color"
+alias l="ls -la --color"
 alias vim="nvim"
 alias vi="nvim"

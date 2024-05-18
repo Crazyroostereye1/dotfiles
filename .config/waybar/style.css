@@ -28,6 +28,7 @@ window#waybar {
 #battery,
 #disk,
 #tray,
+#custom-batusage,
 #network{
 	background: #1a1a1a;
 }
@@ -64,13 +65,18 @@ window#waybar {
 #disk {
 	color: #b58900;
 }
+#custom-batusage {
+color: #248f24;
+}
 
 #clock,
 #pulseaudio,
 #memory,
 #cpu,
 #battery,
-#disk
-#network {
+#disk,
+#network,
+#custom-batusage
+{
 	padding: 0 10px;
 }
