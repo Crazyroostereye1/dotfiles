@@ -27,7 +27,8 @@ window#waybar {
 #cpu,
 #battery,
 #disk,
-#tray {
+#tray,
+#network{
 	background: #1a1a1a;
 }
 
@@ -69,6 +70,7 @@ window#waybar {
 #memory,
 #cpu,
 #battery,
-#disk {
+#disk
+#network {
 	padding: 0 10px;
 }

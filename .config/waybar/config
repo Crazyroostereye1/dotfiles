@@ -20,6 +20,9 @@
 		"custom/right-arrow-dark"
 	],
 	"modules-right": [
+    "custom/left-arrow-dark",
+    "network",
+    "custom/left-arrow-light",
 		"custom/left-arrow-dark",
 		"pulseaudio",
 		"custom/left-arrow-light",
@@ -56,7 +59,7 @@
 		"tooltip": false
 	},
 
-	"sway/workspaces": {
+	"hyprland/workspaces": {
 		"disable-scroll": true,
 		"format": "{name}"
 	},
@@ -70,7 +73,7 @@
 		"tooltip": false
 	},
 	"clock#3": {
-		"format": "{:%m-%d}",
+		"format": "{:%d.%m}",
 		"tooltip": false
 	},
 
@@ -119,5 +122,10 @@
 	},
 	"tray": {
 		"icon-size": 20
-	}
+	},
+  "network": {
+      "interval" : 1,
+      "format-wifi": "  {signalStrength}% ",
+      "tooltip-format-wifi":" {ipaddr} on {essid} | {bandwidthUpBytes} {bandwidthDownBytes}"
+  }
 }

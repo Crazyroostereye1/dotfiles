@@ -48,7 +48,9 @@ setopt hist_find_no_dups
 zstyle ':completion:*' match-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 
+export EDITOR="nvim"
 
 alias ls="ls --color"
 alias ll="ls -la --color"
 alias vim="nvim"
+alias vi="nvim"
