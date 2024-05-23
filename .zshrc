@@ -21,7 +21,7 @@ zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit snippet OMZP::git
 zinit snippet OMZP::sudo
-
+zinit light z-shell/zsh-zoxide
 
 autoload -U compinit && compinit
 
@@ -55,3 +55,5 @@ alias ll="ls -la --color"
 alias l="ls -la --color"
 alias vim="nvim"
 alias vi="nvim"
+eval "$(zoxide init zsh)"
+alias cd="z"
