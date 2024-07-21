@@ -4,18 +4,18 @@
 }
 
 window#waybar {
-	background: #292b2e;
-	color: #fdf6e3;
+	background: transparent;
+	color: #ebdbb2;
 }
 
 #custom-right-arrow-dark,
 #custom-left-arrow-dark {
-	color: #1a1a1a;
+	color: #282828;
 }
 #custom-right-arrow-light,
 #custom-left-arrow-light {
-	color: #292b2e;
-	background: #1a1a1a;
+	color: black;
+	background: #282828;
 }
 
 #workspaces,
@@ -30,7 +30,7 @@ window#waybar {
 #tray,
 #custom-batusage,
 #network{
-	background: #1a1a1a;
+	background: #282828;
 }
 
 #workspaces button {

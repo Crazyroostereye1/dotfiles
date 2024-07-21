@@ -1,3 +1,7 @@
+import = [
+	"~/.config/alacritty/gruvbox_dark.toml"
+]
+
 [font.normal]
 family = "JetBrainsMonoNL NF"
 style = "Regular"
@@ -5,4 +9,3 @@ style = "Regular"
 [window.padding]
 x = 5
 y = 5
-
