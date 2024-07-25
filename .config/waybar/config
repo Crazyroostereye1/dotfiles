@@ -45,6 +45,7 @@
 		"disk",
 		"custom/left-arrow-light",
 		"custom/left-arrow-dark",
+		"idle_inhibitor",
 		"tray"
 	],
 
@@ -63,6 +64,13 @@
 	"custom/right-arrow-light": {
 		"format": "",
 		"tooltip": false
+	},
+	"idle_inhibitor": {
+		"format": "{icon}",
+		"format-icons": {
+			"activated": "  ",
+			"deactivated": "  "
+		}
 	},
 
 	"hyprland/workspaces": {
